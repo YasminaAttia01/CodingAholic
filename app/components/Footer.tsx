@@ -35,7 +35,6 @@ const Footer = () => {
                         {socialMedia.map((info) => (
                             <a
                                 key={info.id}
-                                href={info.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 flex justify-center items-center rounded-full bg-gray-800 hover:bg-gray-700 transition duration-300"
